@@ -36,11 +36,8 @@ const Home = () => {
                   {tarotCard.length > 0 ? (
                         tarotCard.map((tarot, index) => (
                               <div key={index}>
-                                    <h1>Tarot Card {index}</h1>
                                     <p>Card Name: {tarot.name}</p>
                                     <p>Card Meaning: {tarot.desc}</p>
-                                    <p>Card CBD Description: {tarot.cbd_desc}</p>
-                                    <p>Card Helping Friends: {tarot['helping friends']}</p>
                                     <p>Card Rdesc: {tarot.rdesc}</p>
                                     <p>Card Sequence: {tarot.sequence}</p>
                               </div>
