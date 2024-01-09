@@ -45,7 +45,6 @@ const Home = () => {
                   ) : (
                         <p>No tarot cards available</p>
                   )}
-                  <h1>Loadmore</h1>
             </section>
       )
 }
